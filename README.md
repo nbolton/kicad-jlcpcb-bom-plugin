@@ -9,7 +9,7 @@ This script requires **Python 3**. If you need a Python 2 version, please get
 
 The script has been tested with KiCad 5.1.4.
 
-1. Copy `bom_csv_jlcpcb.py` to your KiCad installation folder under the `bin/scripting/plugins` directory
+1. Copy `bom_csv_jlcpcb.py` to your KiCad plugins folder, e.g. `bin/scripting/plugins` or `Documents/KiCad/6.0/plugins`
 2. In Eschema (the Schematics editor) go to "Tools" -> "Generate Bill of Materials", press the "+" button 
    at the bottom of the screen, and choose the plugin file you have just copied. When asked for a nickname,
    go with the default, "bom_csv_jlcpcb".
